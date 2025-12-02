@@ -45,8 +45,8 @@ app.post('/mcp', async (req, res) => {
   await transport.handleRequest(req, res, req.body);
 });
 
-const port = parseInt(process.env.BL_SERVER_PORT || '80');
-const host = process.env.BL_SERVER_HOST || '0.0.0.0';
+const port = parseInt(process.env.PORT || '80');
+const host = process.env.HOST || '0.0.0.0';
 
 app.listen(port, () => {
   console.log(`MCP Server running on http://${host}:${port}/mcp`);
