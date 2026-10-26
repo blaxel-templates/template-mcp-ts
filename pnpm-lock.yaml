@@ -14,11 +14,11 @@ importers:
   .:
     dependencies:
       '@blaxel/core':
-        specifier: ^0.3.30
-        version: 0.3.30(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
+        specifier: ^0.3.32
+        version: 0.3.32(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
       '@blaxel/telemetry':
-        specifier: ^0.3.30
-        version: 0.3.30(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)(zod@3.25.76)
+        specifier: ^0.3.32
+        version: 0.3.32(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)(zod@3.25.76)
       '@modelcontextprotocol/sdk':
         specifier: ^1.20.0
         version: 1.32.1(zod@3.25.76)
@@ -96,12 +96,12 @@ packages:
     resolution: {integrity: sha512-cmG40u10QFEUrYXWYom6Lo6DLR+pND3wWABTTT9Nf7zg9F7BD46KNj+STekndp9Kg5ZAIPA0WxmTI0IwRvKvvQ==}
     engines: {node: '>=18'}
 
-  '@blaxel/core@0.3.30':
-    resolution: {integrity: sha512-By64a1IAd68RSZNgBuTlt7sh+V9iKwyCh9KoAzEbsWoKvf/wfD5s9rLSV4Nf0DLgAOyVqEGES8NTxgoqTHNM/g==}
+  '@blaxel/core@0.3.32':
+    resolution: {integrity: sha512-RkQn7/LlcUb8xfko+DXcciEsDuEG1xZ5kEqBFawwtmpvZ+uLtDjK1pRhqJ1Q8MAiYXly+HfyRbQVC4Ykudv3bw==}
     engines: {node: '>=18'}
 
-  '@blaxel/telemetry@0.3.30':
-    resolution: {integrity: sha512-LSxboBaD4+iKFAcDgLMmu29RH4rcIxyxzdFdPB5afL67A+fl/MJIP7/ERVYkLf8peyabprWK5l/utfLY8QkJyg==}
+  '@blaxel/telemetry@0.3.32':
+    resolution: {integrity: sha512-/BAUj2e322w28ewCmGyd3AZ8TNSVilNChE29cT6zDgYIdOaYpvt9iGDr7Hf+LjEqp1SWj8klScJwrAnTywOjQA==}
     engines: {node: '>=18'}
 
   '@esbuild/aix-ppc64@0.28.2':
@@ -423,18 +423,21 @@ packages:
   '@opentelemetry/sdk-trace-base@2.0.0':
     resolution: {integrity: sha512-qQnYdX+ZCkonM7tA5iU4fSRsVxbFGml8jbxOgipRGMFHKaXKHQ30js03rTobYjKjIfnOsZSbHKWF0/0v0OQGfw==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-base@2.12.0':
     resolution: {integrity: sha512-JOERgZCxRM06FEJ5kEWxlSRChah6MmXDx3KwCruqEv/iEyLkTokCSemf2y1w8oIHtfrr8EVTpzebq/31vn2Cpg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-node@2.12.0':
     resolution: {integrity: sha512-9DufH1IlmQMoKAfot5y/FhTP1RnmhLb5K6eKmJO/bvzPjYwPAazoiAUbTZFdPbqxOXN0FEbhZx/e6SB1Og4jmg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
@@ -1620,7 +1623,7 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@blaxel/core@0.3.30(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)':
+  '@blaxel/core@0.3.32(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)':
     dependencies:
       '@hey-api/client-fetch': 0.10.2(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@modelcontextprotocol/sdk': 1.32.1(zod@3.25.76)
@@ -1646,14 +1649,14 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@blaxel/telemetry@0.3.30(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)(zod@3.25.76)':
+  '@blaxel/telemetry@0.3.32(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)(zod@3.25.76)':
     dependencies:
       '@ai-sdk/anthropic': 2.0.109(zod@3.25.76)
       '@ai-sdk/cerebras': 1.0.63(zod@3.25.76)
       '@ai-sdk/google': 2.0.103(zod@3.25.76)
       '@ai-sdk/groq': 2.0.58(zod@3.25.76)
       '@ai-sdk/openai': 2.0.135(zod@3.25.76)
-      '@blaxel/core': 0.3.30(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
+      '@blaxel/core': 0.3.32(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.200.0
       '@opentelemetry/exporter-logs-otlp-http': 0.200.0(@opentelemetry/api@1.9.1)
