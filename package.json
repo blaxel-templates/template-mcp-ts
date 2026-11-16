@@ -12,7 +12,7 @@
     "inspect": "npx @modelcontextprotocol/inspector --transport http --server-url http://localhost:1338/mcp"
   },
   "dependencies": {
-    "@blaxel/core": "^0.3.35",
+    "@blaxel/core": "^0.3.39",
     "@blaxel/telemetry": "^3.0.5",
     "@modelcontextprotocol/sdk": "^1.20.0",
     "express": "^4.21.2",
